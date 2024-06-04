@@ -19,7 +19,7 @@ jobs:
     steps:
     - name: Check style with Pylint
       run: |
-      python3 -m pylint --fail-under=0 --reports=y inflammation
+        python3 -m pylint --fail-under=0 --reports=y inflammation
 
     # Next we need to checkout out repository, and set up Python
     # A 'name' is just an optional label shown in the log - helpful to clarify progress - and can be anything
