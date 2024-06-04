@@ -19,6 +19,7 @@ jobs:
     steps:
     - name: Check style with Pylint
       run: |
+        pip3 install -r .github/workflows/requirements.txt
         python3 -m pylint --fail-under=0 --reports=y inflammation
 
     # Next we need to checkout out repository, and set up Python
