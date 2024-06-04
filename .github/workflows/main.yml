@@ -1,9 +1,9 @@
 name: CI
 
-# A 'push' Github event will trigger a CI build
+# We can specify which Github events will trigger a CI build
 on: push
 
-# now define a single job 'build' (but could define more which run in parallel)
+# now define a single job 'build' (but could define more)
 jobs:
 
   build:
